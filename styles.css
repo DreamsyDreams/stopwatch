@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: orange;
+    background-image: url("./img/Painting.jpg");
     padding: 0;
     margin: 0;
 }
@@ -23,6 +23,8 @@ body {
     align-items: center;
     font-size: 120px;
     color: black;
+    margin: auto;
+    border: 2px solid white;
 }
 
 .buttons {
@@ -35,13 +37,13 @@ body {
 }
 
 .buttons > button {
-    width: 100px;
-    height: 120px;
+    width: 110px;
+    height: 100px;
     background-color: rgb(226, 147, 0);
     border: 2px solid black;
     border-radius: 2px;
     color: black;
-    line-height: 120px;
+    line-height: 100px;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
